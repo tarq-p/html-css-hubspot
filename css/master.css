@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.container {
+    width: 100%;
+    background-color: white;
+
+    height: 150px;
+}
+
+
+
+.bg-light-blue  {
+    width: 100%;
+    background-color: #f5f8fa;
+
+    height: 75PX;
+}
+
+.navbar{
+    float: right;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+
+.navbar a:hover {
+    color: #425b76;
+}
+
+
+.cta {
+    position: absolute;
+    left: 80%;
+    bottom: 92.5%;
+}
+
+#login-button {
+    background-color: #ffffff;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-orange {
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+
+.bg-light-white  {
+    width: 100%;
+    background-color: white;
+
+    height: 100px;
+}
+
+#logo {
+    float: left;
+    margin-left: 80px;
+}
+
+.bg-blue  {
+    width: 100%;
+    background-color: #425b76;
+
+    height: 75px;
+}
+
+
+.banner {
+    width: 100%;
+    background-color: red;
+
+    height: 800px;
+}
+
+.banner-2 {
+    width: 100%;
+    background-color: orange;
+
+    height: 1000px;
+
+}
+
+.banner-3 {
+    width: 100%;
+    background-color: black;
+
+    height: 1000px;
+
+}
+
+.banner-4 {
+    width: 100%;
+    background-color: white;
+
+    height: 1000px;
+
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #33475b;
+
+    height: 400px;
+
+}
