@@ -34,7 +34,6 @@ body {
 
 .navbar{
     float: right;
-    height: 400px;
     width: 350px;
     background-color: white;
 }
@@ -64,12 +63,19 @@ body {
     padding: 10px 20px;
 }
 
+.info {
+    background-color: #f5f8fa;
+    position: absolute;
+    left: 10%;
+    bottom: 92.5%;
+}
+
 
 .bg-light-white  {
     width: 100%;
     background-color: white;
-
     height: 100px;
+
 }
 
 #logo {
@@ -80,17 +86,100 @@ body {
 .bg-blue  {
     width: 100%;
     background-color: #425b76;
+    height: 130px;
+    padding-top: 30px;
 
-    height: 75px;
 }
 
 
 .banner {
     width: 100%;
-    background-color: red;
+    background-color: white;
+
 
     height: 800px;
 }
+
+
+.Testo-Main  {
+    width: 60%;
+    text-align: left;
+    float: left;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 7.0%;
+}
+
+h1 {
+    color: #33475b;
+}
+
+.Testo-2 {
+    width: 60%;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    margin-left: 7.0%;
+}
+
+p {
+    color: #33475b;
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+    text color: white;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.btn-cta {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    margin-left: 7.0%;
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+}
+
+
+h3 {
+    color: white;
+    font-size: 15px;
+    text color: white;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+
+.learnmore {
+    float: right;
+}
+
+
+.learn-button {
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    color: #425b76;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 60px;
+    margin-bottom: 300PX;
+}
+
 
 .banner-2 {
     width: 100%;
@@ -122,5 +211,4 @@ body {
     background-color: #33475b;
 
     height: 400px;
-
 }
