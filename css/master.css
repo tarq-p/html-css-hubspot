@@ -273,6 +273,7 @@ h3 {
     height: 100%;
     background-color: white;
     display: block;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -356,12 +357,19 @@ img {
 
 }
 
+.row {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
 .column {
   float: left;
   width: 33.33%;
   text-align: center;
-  padding:10px;
-
+  border: 1px solid black;
+  display: inline block;
 }
 
 
