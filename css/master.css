@@ -330,7 +330,28 @@ img {
 
 .banner-4 {
     width: 100%;
+    height: 3000px;
     background-color:#00b5ad;
+}
+
+.container-blu {
+    width: 100%;
+}
+
+.Grid {
+    width: 100%;
+    background-color: red;
+
+
+}
+
+.banner-5 {
+    width: 100%;
+    background-color: white;
+}
+
+.container-bianco-5 {
+    background:white;
     height: 1000px;
 
 }
@@ -343,7 +364,6 @@ img {
 
 }
 
-.testo-crm
 
 .column img {
     height: 150px;
@@ -368,6 +388,7 @@ h4 {
 hr {
     width: 20%;
     margin-left: 40%;
+    margin-top: 10%;
     align: center;
 }
 
